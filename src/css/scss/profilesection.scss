@@ -1,0 +1,39 @@
+.ProfileSection{
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  border-radius: 8px;
+  padding: 32px 0 30px 20px;
+  width: 280px;
+  height: 372px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  @media only screen and (max-width: 600px){
+    display: none;
+  }
+  .ProfileSection-text{
+    font-weight: 500;
+    font-size: 20px;
+    color: #4F4F4F;
+    margin-bottom: 32px;
+  }
+  .ProfileSection-list{
+    li{
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+      color: #4F4F4F;
+      cursor: pointer;
+      &:nth-child(2){
+        margin: 2rem 0;
+      }
+      &:nth-child(4){
+        margin: 2rem 0;
+      }
+      .list-icon{
+        margin-right: 20px;
+        font-size: 20px;
+        color: #231F20;
+      }
+    }
+  }
+}

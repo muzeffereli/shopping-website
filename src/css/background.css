@@ -1,0 +1,17 @@
+.background-image {
+    background: url('../images/background-linear.png');
+}
+
+.background-product {
+    background: url('../images/background-product1.png');
+}
+
+.background-half {
+    background: #F2F2F2;
+}
+
+.background-footer{
+    background: #262626;
+    margin-top: 100px;
+}
+

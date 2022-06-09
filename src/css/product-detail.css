@@ -1,0 +1,158 @@
+.Gold {
+  background-color: gold;
+}
+.Aquamarine {
+  background-color: aquamarine;
+}
+.Blue {
+  background-color: blue;
+}
+.Red {
+  background-color: Red;
+}
+.Saphire {
+  background-color: rgb(15, 82, 186);
+}
+.Green {
+  background-color: green;
+}
+.White {
+  background-color: white;
+  border: 1px solid gray;
+}
+.Aqua {
+  background-color: aqua;
+}
+.Yellow {
+  background-color: yellow;
+}
+.Purple {
+  background-color: purple;
+}
+.Siearra {
+  background-color: #69abce;
+}
+.Midnight {
+  background-color: #2b333d;
+}
+.Black {
+  background-color: black;
+}
+.Gray {
+  background-color: gray;
+}
+.color {
+  width: 32px;
+  height: 32px;
+  border-radius: 25px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.memory {
+  background: #828282;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 8px 16px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.prod-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #333333;
+}
+.prod-cost {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #db2c66;
+}
+.option-name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4f4f4f;
+}
+.variants {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #f2f2f2;
+  margin-bottom: 24px;
+}
+.solid {
+  margin: 24px 0;
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0 !important;
+}
+.quantity-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  color: #4f4f4f;
+  font-size: 20px;
+}
+.count {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1d2123;
+}
+.addBasket {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.add-button {
+  width: 200px;
+  height: 50px;
+  background-color: #2dd06e;
+  color: #fff !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 8px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.add-button svg path {
+  stroke: #fff !important;
+}
+/*.mySwiper2 .swiper-slide{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/
+/*.mySwiper2 .swiper-slide img{*/
+/*    width: 275px;*/
+/*    height: 350px;*/
+/*}   */
+/*.mySwiper .swiper-slide{*/
+/*    border-radius: 4px;*/
+/*    width: 72px !important;*/
+/*    height: 86px !important;*/
+/*}*/
+/*.mySwiper .swiper-slide img{*/
+/*    height: 100%;*/
+/*    margin: auto;*/
+/*}*/
+

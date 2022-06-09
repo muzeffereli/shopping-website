@@ -1,0 +1,78 @@
+.product-background {
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(164, 164, 164, 0.08);
+    border-radius: 4px;
+}
+
+.filter-white {
+    filter: brightness(0%);
+}
+
+.paginationDots {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.padding-5 {
+    padding: 1.25rem;
+}
+
+.margin-t-1 {
+    margin-top: 1rem;
+}
+
+#fill {
+    font-size: 30px;
+    filter: invert(76%) sepia(94%) saturate(778%) hue-rotate(74deg) brightness(92%) contrast(75%);
+}
+
+.alertify .ajs-body .ajs-content {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.ajs-ok {
+    color: #2dd06e;
+}
+
+.ajs-cancel {
+    color: red;
+}
+
+.priceFilter {
+    display: flex;
+    align-items: center;
+}
+
+.inputParentLower {
+    position: relative;
+    margin-right: 3rem;
+}
+
+.priceFilter input {
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid #f2f2f2;
+    outline: none;
+    background: #f2f2f2;
+    padding-left: 20px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.priceFilter span {
+    position: absolute;
+    top: 12px;
+    left: 75px;
+}
+
+.inputParentUpper {
+    position: relative;
+
+}
+
+

@@ -1,0 +1,24 @@
+li a{
+  color: #333333;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+}
+.top-icons svg{
+    color: #333333;
+    cursor: pointer;
+}
+
+.basket-count{
+   border-radius: 50%;
+   color: #fff;
+   background-color: #2DD06E;
+   width: 25px;
+   height: 25px;
+   font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+}
