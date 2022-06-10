@@ -25,7 +25,7 @@ function BasketPage() {
                 quantity: quantity - 1,
             })
         );
-        alertify.success('Say uğurla artırıldı!');
+        alertify.success('Say uğurla azaldıldı!');
     };
 
     const increment = (id, quantity) => {
@@ -35,7 +35,7 @@ function BasketPage() {
                 quantity: quantity + 1,
             })
         );
-        alertify.success('Say uğurla azaldıldı!');
+        alertify.success('Say uğurla artırıldı!');
     };
 
     useEffect(() => {
