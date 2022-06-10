@@ -19,7 +19,7 @@ const RegisterPage = () => {
 
     let body = {
       email: `${e.target[0].value}`,
-      base_url: "http://localhost:3000/login",
+      base_url: "https://shopping-website-three.vercel.app/login",
     };
 
     await fetch(url, {
