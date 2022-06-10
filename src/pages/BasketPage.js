@@ -5,6 +5,7 @@ import {deleteItem, updateBasket} from "../feature/BasketSlice";
 import "../css/basket.css";
 import commerce from "../lib/Ecommerce";
 import alertify from "alertifyjs";
+import EmptyBasket from "../components/EmptyBasket";
 
 function BasketPage() {
     let basket = useSelector((state) => state.basket.basket);
@@ -15,7 +16,8 @@ function BasketPage() {
             alertify.error("Uğurla silindi");
             dispatch(deleteItem(id));
         }).setHeader('<span></span> ')
-            .set('labels', {ok:'Bəli!', cancel:'Xeyr!'}); ;
+            .set('labels', {ok: 'Bəli!', cancel: 'Xeyr!'});
+        ;
     };
 
     const decrement = (id, quantity) => {
@@ -46,7 +48,7 @@ function BasketPage() {
         <>
             <div className="container">
                 {basket?.length === 0 ? (
-                    <div>Sebet bosdur</div>
+                    <EmptyBasket/>
                 ) : (
                     <div>
                         <div className="basket-length">
@@ -57,9 +59,6 @@ function BasketPage() {
                                 {basket?.map((product) => (
                                     <div className="basket-card" key={product.id}>
                                         <div className="row">
-                                            {/*<div className="col-md-1 basket-center-flex">*/}
-                                            {/*  /!*<input type="checkbox" />*!/*/}
-                                            {/*</div>*/}
                                             <div className="col-md-2 basket-center-flex">
                                                 <img src={product?.image?.url} alt=""/>
                                             </div>
@@ -136,7 +135,7 @@ function BasketPage() {
                     </div>
                 )}
             </div>
-            <div className="block  md:hidden">
+            {basket?.length !== 0 && <div className="block  md:hidden">
                 <div className="total-inner total-price">
                     <div className="total-sm  flex justify-content-around ">
                         <p className="m-0">Cəmi</p>
@@ -144,6 +143,7 @@ function BasketPage() {
                     </div>
                 </div>
             </div>
+            }
         </>
     );
 }

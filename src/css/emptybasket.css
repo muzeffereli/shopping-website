@@ -1,0 +1,20 @@
+.basket{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 2rem;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    filter: invert(43%) sepia(23%) saturate(1586%) hue-rotate(71deg) brightness(94%) contrast(92%);
+}
+
+.linkbasket{
+    margin-top: 1rem;
+    color: #228B22;
+}
