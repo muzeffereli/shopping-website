@@ -63,7 +63,9 @@
     word-wrap: break-word;
     word-break: break-all;
 }
-
+.product-img{
+    object-fit: cover;
+}
 .priceFilter span {
     position: absolute;
     top: 12px;
@@ -74,5 +76,9 @@
     position: relative;
 
 }
-
+@media only screen and (max-width: 768px){
+    .product-img{
+        object-fit: contain;
+    }
+}
 

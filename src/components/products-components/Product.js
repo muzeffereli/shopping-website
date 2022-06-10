@@ -20,7 +20,7 @@ const Product = ({data}) => {
     return (
         <div className="rounded-md bg-white	 product-card flex justify-center my-3">
             <div className="padding-5 shadow-2xl" key={data.id}>
-                <img className="h-64 object-cover mx-auto" src={data.image.url} alt=""/>
+                <img className="h-64 product-img mx-auto" src={data.image.url} alt=""/>
                 <p className="text-sm margin-t-1 mb-0 font-bold text-gray">{data.name.slice(0, 15)}</p>
                 <div className="flex justify-between items-center">
                     <p className="text-lg margin-t-1 mb-0 font-semibold text-gray">{data.price.raw} ₼</p>

@@ -30,7 +30,7 @@ function App() {
         if (cartStatus === "idle") {
             dispatch(fetchBasket());
         }
-    }, [cartStatus,dispatch])
+    }, [cartStatus, dispatch])
 
     return (
         <div>
@@ -42,15 +42,15 @@ function App() {
                        element={<ProductsPage filter={filterName} setFilter={setFilterName}/>}/>
                 <Route path="/products/:categoryName/:productId" element={<ProductDetailsPage/>}/>
                 <Route path="/basket" element={<BasketPage/>}/>
-                {!commerce.customer.isLoggedIn() &&  <Route path="/login" element={<LoginPage/>}/>}
+                {!commerce.customer.isLoggedIn() && <Route path="/login" element={<LoginPage/>}/>}
                 <Route path="/login/:id" element={<AuthPage/>}/>
-                {!commerce.customer.isLoggedIn() &&  <Route path="/register" element={<RegisterPage/>}/>}
+                {!commerce.customer.isLoggedIn() && <Route path="/register" element={<RegisterPage/>}/>}
                 {commerce.customer.isLoggedIn() &&
 
-                <Route path="profile" element={<ProfilePage/>}>
-                    <Route index element={ <Navigate replace to="/profile/info" /> }/>
-                    <Route path='info' element={<ProfileInfo/>}/>
-                </Route>}
+                    <Route path="profile" element={<ProfilePage/>}>
+                        <Route index element={<Navigate replace to="/profile/info"/>}/>
+                        <Route path='info' element={<ProfileInfo/>}/>
+                    </Route>}
 
                 <Route path="*" element={<NotFoundPage/>}/>
 
