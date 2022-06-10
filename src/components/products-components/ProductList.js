@@ -29,7 +29,7 @@ const ProductList = ({data, categoryName, category}) => {
         <>
             <div className="flex justify-between my-6">
                 <p>{category}</p>
-                <Link to={`/products/${categoryName}`} className="items-center hidden md:flex">
+                <Link to={`/products/${categoryName}`} className="items-center hidden md:flex text-decoration-none">
                     <p className="mr-3">Hamısına bax</p>
                     <MdArrowForwardIos/>
                 </Link>
@@ -55,8 +55,8 @@ const ProductList = ({data, categoryName, category}) => {
             </Swiper>
 
             <Link to={`/products/${categoryName}`}
-                  className="flex text-black items-center md:hidden text-center justify-center  mb-8">
-                <p className="mr-3">Hamısına bax</p>
+                  className="flex text-black items-center md:hidden text-center justify-center text-decoration-none mt-3 mb-8">
+                <p className="text-decoration-none mr-3 mb-0 ">Hamısına bax</p>
                 <MdArrowForwardIos/>
             </Link>
         </>

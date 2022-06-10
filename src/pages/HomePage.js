@@ -39,7 +39,7 @@ const HomePage = ({setFilter}) => {
                 <ProductList data={mostSeller} categoryName={"popular"} category={"Ən çox satılan məhsullar"}/>
                 <ProductList data={newProducts} categoryName={"yeni"} category={"Yeni gələn məhsullar"}/>
                 <Banner/>
-                <ProductList data={accessories} categoryName={"accessories"} category={"Yeni gələn aksessuarlar"} />
+                <ProductList data={accessories} categoryName={"aksesuarlar"} category={"Aksesuarlar"} />
                 <Categories/>
                 <DeliveryGuaranty/>
             </div>
