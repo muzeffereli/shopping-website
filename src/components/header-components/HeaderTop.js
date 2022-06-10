@@ -36,7 +36,7 @@ const HeaderTop = ({categories}) => {
                 <div>
                     <div className="flex">
                         <span onClick={closeMyHamburger} className="text-3xl mt-4"><GrClose/></span>
-                        <div className="mt-5 ml-5"><img src={projectX} alt=""/></div>
+                        <div className="mt-5 ml-5"><img src={logo} alt=""/></div>
                     </div>
                     <ul className="mt-4 text-xl flex flex-col gap-5">
                         {categories?.map((category) => (
